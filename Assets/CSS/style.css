@@ -1,0 +1,16 @@
+h1 {
+    font-family:'Georgia', Times, serif;
+    background-color:lightgrey;
+    background-size: 175px;
+    padding:50px;
+    margin:20px;
+    font-size:210%;
+}
+
+body {
+    background-image: url(C:/Users/Dream/Documents/Classwork/Basic-Portfolio/Assets/Images/dark-paths.png);
+    background-size: cover;
+}
+header {
+    
+}
