@@ -6,14 +6,19 @@
 }
 
 header {
-
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    background-color:white;
+    background-color: #ffffff;
     border-style: solid;
     height:65px;
-    border-color:gray;
+    border-color: #cccccc;
     padding: 25px;
     margin: 0px;
+}
+
+.profile {
+    width:35%;
+    float:left;
+    margin: 2px 7px 5px 2px;
 }
 
 .name {
@@ -36,7 +41,6 @@ header {
 
 .personal {
     background-image: url("../Images/papyrus.png");
-    background-repeat:repeat;
     background-size:cover;
     display:flex;
 }
@@ -51,16 +55,18 @@ section {
     margin: 50px;
     background-color: #ffffff;
 }
+
 .clearfix::after {
     content:"";
     display: table;
     clear:both;
 }
+
 footer {
     width:960px;
     text-align:center;
     background-color:#666666;
     color: #cccccc;
     border-style: solid;
-    border-color: #4aaaa5;
+    border-color: #cccccc;
 }
