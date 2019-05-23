@@ -41,7 +41,7 @@ header {
 }
 
 a{
-    color:black;
+    color:darkgrey;
     font-weight:bold;
     text-decoration:none;
 }
@@ -82,10 +82,111 @@ footer {
 }
 
 h1 {
+    color:#4aaaa5;
     font-size: 36px;
     font-weight:bold;
 }
 
-.email {
-    
+.caption1 {
+    color:#cccccc;
+    background-color: #4aaaa5;
+    padding:10px;
+    width:300px;
+    position:absolute;
+    float:left;
+    z-index:1;
+    text-align:center;
+    top:318px;
+    left:10px;
+}
+.caption2 {
+    color:#cccccc;
+    background-color: #4aaaa5;
+    padding:10px;
+    width:300px;
+    position:absolute;
+    float:left;
+    z-index:1;
+    text-align:center;
+    top:318px;
+    left:330px;
+}
+.caption3 {
+    color:#cccccc;
+    background-color: #4aaaa5;
+    padding:10px;
+    width:300px;
+    position:absolute;
+    float:left;
+    z-index:1;
+    text-align:center;
+    top:318px;
+    left:650px;
+}
+.caption4 {
+    color:#cccccc;
+    background-color: #4aaaa5;
+    padding:10px;
+    width:300px;
+    position:absolute;
+    float:left;
+    z-index:1;
+    text-align:center;
+    top:603px;
+    left:10px;
+}
+.caption5 {
+    color:#cccccc;
+    background-color: #4aaaa5;
+    padding:10px;
+    width:300px;
+    position:absolute;
+    float:left;
+    z-index:1;
+    text-align:center;
+    top:603px;
+    left:330px;
+}
+.caption6 {
+    color:#cccccc;
+    background-color: #4aaaa5;
+    padding:10px;
+    width:300px;
+    position:absolute;
+    float:left;
+    z-index:1;
+    text-align:center;
+    top:603px;
+    left:650px;
+}
+.picture1 {
+    float:left;
+    margin-right:20px;
+    z-index:initial;
+    margin-bottom:15px;
+}
+.picture2 {
+    float:left;
+    margin-right:20px;
+    z-index:initial;
+    margin-bottom:15px;
+}
+.picture3 {
+    float:left;
+    z-index:initial;
+    margin-bottom:15px;
+}
+.picture4 {
+    float:left;
+    margin-right:20px;
+    z-index:initial;
+}
+.picture5 {
+    float:left;
+    margin-right:20px;
+    z-index:initial;
+}
+.picture6 {
+    float:left;
+    z-index:initial;
 }
