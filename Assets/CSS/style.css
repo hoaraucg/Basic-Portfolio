@@ -79,6 +79,9 @@ footer {
     color: #cccccc;
     border-style: solid;
     border-color: #4aaaa5;
+    position:fixed;
+    left:0;
+    bottom:0;
 }
 
 h1 {
@@ -87,6 +90,12 @@ h1 {
     font-weight:bold;
 }
 
+.textbox {
+    height:200px;
+    font-size:14pt;
+    width:60%;
+    Vertical-align:top;
+}
 .caption1 {
     color:#cccccc;
     background-color: #4aaaa5;
