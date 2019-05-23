@@ -55,7 +55,7 @@ a{
     text-decoration:none;
 }
 
-/* Background image ISSUE WITH NOT FILLING WHEN USING STICKY FOOTER */
+/* Background image  */
 .background {
     background-image: url("../Images/gravel.png");
     display:flex;
@@ -85,7 +85,7 @@ section {
     clear:both;
 }
 
-/* Footer, ISSUE WITH BACKGROUND NOT FILLING WHEN USING STICKY FOOTER */
+/* Footer that stickys to bottom of page */
 footer {
     width:100%;
     height:60px;
