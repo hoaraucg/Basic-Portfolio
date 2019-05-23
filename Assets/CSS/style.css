@@ -1,31 +1,38 @@
 * {
     box-sizing:border-box;
 }
-
+/* Controls width and Fonts for Top Bar */
 .topBar {
     justify-content:center;
     width: 100%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* Controls Backdrop of header */
 header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #ffffff;
     border-style: solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
     height:86px;
     border-color: #cccccc;
     margin: 0 auto;
     align-content: center;
 }
 
+/* Profile Image */
 .profile {
     float:left;
     margin: 12px 15px 0px 15px;
 }
 
+/* Name box on Header */
 .name {
     position:relative;
     left:445px;
+    top:-3px;
     float:left;
     font-size: 20pt;
     color:white;
@@ -33,6 +40,7 @@ header {
     padding: 25px;
 }
 
+/* Link Menu on Top Bar */
 .links {
     position:relative;
     top:60px;
@@ -40,37 +48,44 @@ header {
     float:right;
 }
 
+/* Styling for Top Bar links */
 a{
     color:darkgrey;
     font-weight:bold;
     text-decoration:none;
 }
+
+/* Background image ISSUE WITH NOT FILLING WHEN USING STICKY FOOTER */
 .background {
     background-image: url("../Images/gravel.png");
     display:flex;
 }
 
+/* Controls Centered section */
 section {
     font-size: 14pt;
     width: 960px;
     position:relative;
     left:400px;
     padding: 10px;
-    margin: 50px;
+    margin: 50px 50px 200px 50px;
     background-color: #ffffff;
 }
 
+/* Controls text of about me page */
 .about {
     text-align:justify;
     margin: 0 0 0 3px;
 }
 
+/* Clearfix for Floats */
 .clearfix::after {
     content:"";
     display: table;
     clear:both;
 }
 
+/* Footer, ISSUE WITH BACKGROUND NOT FILLING WHEN USING STICKY FOOTER */
 footer {
     width:100%;
     height:60px;
@@ -84,18 +99,32 @@ footer {
     bottom:0;
 }
 
+/* Syling for h1 titles */
 h1 {
     color:#4aaaa5;
     font-size: 36px;
     font-weight:bold;
 }
 
+/* Controlling textbox for messages on contact me page */
 .textbox {
     height:200px;
     font-size:14pt;
-    width:60%;
+    width:100%;
     Vertical-align:top;
 }
+
+.namebox {
+    width:100%;
+    height:35px;
+}
+
+.emailbox {
+    width:100%;
+    height:35px;
+}
+
+/* BEGINNING OF CAPTIONS, for Portfolio page floating text boxes */
 .caption1 {
     color:#cccccc;
     background-color: #4aaaa5;
@@ -168,6 +197,8 @@ h1 {
     top:603px;
     left:650px;
 }
+
+/* BEGINNING OF PORTFOLIO IMAGES, controlling z-index and floats */
 .picture1 {
     float:left;
     margin-right:20px;
